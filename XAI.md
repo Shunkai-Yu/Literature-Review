@@ -1,14 +1,7 @@
 # XAI Literature
 
-## 2026
+## 2017
 
-| Topic | Paper | Venue | Code | Description | Status |
-|---|---|---|---|---|---|
-| Hierarchical Classification | [Paper Title](paper-link) | CVPR 2026 | [GitHub](code-link) | Uses hierarchical supervision for ... | Read |
-| Feature Importance | [Paper Title](paper-link) | NeurIPS 2026 | - | Measures channel importance using ... | Skimmed |
-
-## 2025
-
-| Topic | Paper | Venue | Code | Description | Status |
-|---|---|---|---|---|---|
-| Prompt Learning | [ProTeCt](paper-link) | CVPR 2025 | [GitHub](code-link) | Introduces ... | Core |
+| Topic                      | Paper                                                                                                      | Venue     | Code                                      | Description                                                                                                                | Status |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Gradient-based Attribution | [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391) | ICCV 2017 | [GitHub](https://github.com/ramprs/grad-cam) | Uses gradients of a target output with respect to convolutional feature maps to compute channel weights and generate a class-specific localization heatmap. | Core   |
