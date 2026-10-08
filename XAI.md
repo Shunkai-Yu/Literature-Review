@@ -6,6 +6,12 @@
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | Statistical Association     | [Explaining Classifiers with Measures of Statistical Association](https://doi.org/10.1016/j.csda.2023.107701)            | Computational Statistics and Data Analysis | -    | Introduces the Xi-method, which measures feature importance through statistical dependence between features and class labels or model predictions, and compares these pre-hoc and post-hoc dependence structures. | Core   |
 
+## 2020
+
+| Topic | Paper | Venue | Code | Description | Status |
+| --- | --- | --- | --- | --- | --- |
+| Game-theoretic Attribution | [Neuron Shapley: Discovering the Responsible Neurons](https://arxiv.org/abs/2002.09815) | NeurIPS 2020 | [GitHub](https://github.com/amiratag/neuronshapley) | Introduces Neuron Shapley, which uses Shapley values to quantify individual neurons' contributions to model predictions and performance by evaluating their marginal effects across neuron subsets. Proposes an efficient multi-armed bandit algorithm to identify the most influential neurons while accounting for interactions between neurons. | Core |
+
 ## 2017
 
 | Topic                      | Paper                                                                                                      | Venue        | Code                                    | Description                                                                                                                                                                        | Status |
